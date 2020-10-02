@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P26-pP-FyF">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P26-pP-FyF">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSJ-xS-fj0">
-                                <rect key="frame" x="34" y="305" width="307" height="56"/>
+                                <rect key="frame" x="34" y="305.5" width="307" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="307" id="i5u-Uc-ccB"/>
                                     <constraint firstAttribute="height" constant="56" id="kDP-v2-l88"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbX-Vi-Zxv">
-                                <rect key="frame" x="8" y="44" width="121" height="42"/>
+                                <rect key="frame" x="8" y="24" width="121" height="42"/>
                                 <color key="backgroundColor" red="0.31372549020000001" green="0.89019607840000003" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="U2O-LC-skV"/>
@@ -44,14 +42,14 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.42745098040000001" green="0.35294117650000001" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hSJ-xS-fj0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="890-H7-qb6"/>
                             <constraint firstItem="hSJ-xS-fj0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NcS-1L-47r"/>
                             <constraint firstItem="FbX-Vi-Zxv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Zdu-KS-tIw"/>
                             <constraint firstItem="FbX-Vi-Zxv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="ivm-wZ-E3c"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="bd8-qc-oAQ"/>
                 </viewController>
@@ -73,17 +71,17 @@
                                     <constraint firstAttribute="height" constant="56" id="BdE-6g-Eq0"/>
                                     <constraint firstAttribute="width" constant="307" id="dRG-ZC-4de"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.74117647060000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Xfc-Ih-2Dn"/>
+                        <color key="backgroundColor" red="0.56078431370000004" green="0.70980392160000005" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="9Ia-tu-P0R" firstAttribute="centerY" secondItem="DUe-oy-Yvy" secondAttribute="centerY" id="IjR-Bz-m9f"/>
                             <constraint firstItem="9Ia-tu-P0R" firstAttribute="centerX" secondItem="DUe-oy-Yvy" secondAttribute="centerX" id="s2W-hH-yuq"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Xfc-Ih-2Dn"/>
                     </view>
                     <connections>
                         <segue destination="QyF-oU-SvP" kind="custom" identifier="SideMenu.Content" customClass="SideMenuSegue" customModule="SideMenuSwift" id="Zen-EI-Jun"/>
@@ -132,12 +130,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="SGI-eM-t4f"/>
                         <color key="backgroundColor" red="0.0039215686269999999" green="0.29803921570000003" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="An4-8x-gO0" firstAttribute="centerY" secondItem="XiJ-le-eSD" secondAttribute="centerY" id="LYQ-ZT-s2y"/>
                             <constraint firstItem="An4-8x-gO0" firstAttribute="centerX" secondItem="XiJ-le-eSD" secondAttribute="centerX" id="pqA-SR-321"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="SGI-eM-t4f"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPT-h7-v8E" userLabel="First Responder" sceneMemberID="firstResponder"/>
